@@ -34,7 +34,7 @@ cohere_key = get_api_key("Cohere", 'cohere')
 
 # Check if API keys are available
 if not openai_api_key or not cohere_key:
-    st.error("Please provide both OpenAI and Cohere API keys to use this application.")
+    st.info("Please provide both OpenAI and Cohere API keys to use this application.")
     st.stop()
 
 # Render navigation bar

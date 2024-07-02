@@ -6,3 +6,4 @@ streamlit
 annoy
 langchain-openai ==0.1.3
 langchain
+streamlit-extras
